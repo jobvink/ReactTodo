@@ -20,19 +20,15 @@ export var Todo = React.createClass({
 		};
 		return (
 			<div className={todoClassName} onClick={() => {
-				{/*this.props.onToggle(id);*/}
-				dispatch(actions.toggleTodo(id));
+				dispatch(actions.startToggleTodo(id, !completed));
 			}}>
 				<div>
 					<input type="checkbox" checked={completed}/>
 				</div>
 				<div>
 					<p>{text}</p>
+					<p className="todo__subtext">{renderDate()}</p>
 				</div>
-				<div>
-					<p className="todo_subtext">{renderDate()}</p>
-				</div>
-
 			</div>
 		)
 	}

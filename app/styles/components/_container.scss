@@ -1,13 +1,13 @@
 .container {
-  //background: $light-gray;
-  border: 1px solid $light-gray-border;
+  background: $light-grey;
+  border: 1px solid $light-grey-border;
   border-radius: 5px;
   padding: 0;
   margin-bottom: 2rem;
 }
 
 .container__header {
-  border-bottom: 1px solid $light-gray-border;
+  border-bottom: 1px solid $light-grey-border;
   padding: 1rem;
 
   label {
@@ -16,7 +16,7 @@
   }
 
   > :last-child {
-    align-content: center;
+    align-items: center;
     display: flex;
   }
 }
@@ -28,6 +28,6 @@
 }
 
 .container__footer {
-  border-top: 1px solid $light-gray-border;
+  border-top: 1px solid $light-grey-border;
   padding: 1rem 1rem 0 1rem;
 }

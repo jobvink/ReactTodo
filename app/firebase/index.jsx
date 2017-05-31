@@ -1,15 +1,15 @@
 import firebase from 'firebase';
 
 try {
-	// Initialize Firebase
 	var config = {
-		apiKey: "AIzaSyASkHzrvJfyueCoQp3xs7vNhWN4D7HyPaE",
-		authDomain: "jobs-todo-app.firebaseapp.com",
-		databaseURL: "https://jobs-todo-app.firebaseio.com",
-		projectId: "jobs-todo-app",
-		storageBucket: "jobs-todo-app.appspot.com",
-		messagingSenderId: "168810879256"
+		apiKey: process.env.API_KEY,
+		authDomain: process.env.AUTH_DOMAIN,
+		databaseURL: process.env.DATABASE_URL,
+		projectId: process.env.PROJECT_ID,
+		storageBucket: process.env.STORAGE_BUCKET,
+		messagingSenderId: process.env.MESSAGEING_SENDER_ID,
 	};
+	// Initialize Firebasew
 	firebase.initializeApp(config);
 } catch (e) {
 

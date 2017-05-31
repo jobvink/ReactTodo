@@ -1,4 +1,4 @@
-import firbase, {firebaseRef} from 'app/firebase/';
+import firbase, {firebaseRef, githubProvider} from 'app/firebase/';
 import moment from 'moment';
 
 export var setSearchText = (searchText) => {
@@ -92,3 +92,20 @@ export var startToggleTodo = (id, completed) => {
 	};
 };
 
+export var startLogin = () => {
+	return (dispatch, getState) => {
+		return firbase.auth().signInWithPopup(githubProvider).then((res) => {
+			console.log('auth ging goed', res);
+		}, (error) => {
+			console.log('auth faalde', error);
+		})
+	};
+};
+
+export var startLogout = () => {
+	return (dispatch, getState) => {
+		return firbase.auth().signOut().then(() => {
+			console.log('Uigeloggd');
+		})
+	};
+};

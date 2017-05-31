@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1155f536-9f69-4086-9bb1-59fa1062d6cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/Login.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/components/_callout-auth.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/components/_page-actions.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/actions/actions.jsx" afterPath="$PROJECT_DIR$/app/actions/actions.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.jsx" afterPath="$PROJECT_DIR$/app/app.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/TodoApp.jsx" afterPath="$PROJECT_DIR$/app/components/TodoApp.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/firebase/index.jsx" afterPath="$PROJECT_DIR$/app/firebase/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app.scss" afterPath="$PROJECT_DIR$/app/styles/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/components/TodoApp.test.jsx" afterPath="$PROJECT_DIR$/app/tests/components/TodoApp.test.jsx" />
     </list>
     <ignored path="ReactTodo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,90 +37,20 @@
       <file leaf-file-name="actions.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/actions/actions.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+            <state relative-caret-position="521">
+              <caret line="107" column="37" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
               <folding>
-                <element signature="e#0#51#0" expanded="true" />
+                <element signature="e#0#67#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="app.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="development.env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/development.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/test.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/firebase/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playground/firebase/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-804">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TodoAPI.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/api/TodoAPI.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -125,7 +60,81 @@
         <entry file="file://$PROJECT_DIR$/app/tests/api/TodoAPI.test.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoApp.test.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/tests/components/TodoApp.test.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/Login.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoApp.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/components/TodoApp.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/base/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_callout-auth.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/components/_callout-auth.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/firebase/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -147,14 +156,11 @@
         <option value="$PROJECT_DIR$/app/styles/components/_page-title.scss" />
         <option value="$PROJECT_DIR$/app/styles/base/_variables.scss" />
         <option value="$PROJECT_DIR$/app/styles/components/_container.scss" />
-        <option value="$PROJECT_DIR$/app/styles/app.scss" />
         <option value="$PROJECT_DIR$/app/styles/components/_todo.scss" />
-        <option value="$PROJECT_DIR$/app/tests/components/TodoApp.test.jsx" />
         <option value="$PROJECT_DIR$/app/tests/components/TodoList.test.jsx" />
         <option value="$PROJECT_DIR$/app/components/TodoSearch.jsx" />
         <option value="$PROJECT_DIR$/app/tests/components/TodoSearch.test.jsx" />
         <option value="$PROJECT_DIR$/app/components/TodoList.jsx" />
-        <option value="$PROJECT_DIR$/app/components/TodoApp.jsx" />
         <option value="$PROJECT_DIR$/playground/firebase/index.js" />
         <option value="$PROJECT_DIR$/playground/firebase/index.jsx" />
         <option value="$PROJECT_DIR$/app/store/configureStore.jsx" />
@@ -165,16 +171,22 @@
         <option value="$PROJECT_DIR$/app/tests/reducers/reducers.test.jsx" />
         <option value="$PROJECT_DIR$/app/tests/actions/actions.test.jsx" />
         <option value="$PROJECT_DIR$/app/tests/components/Todo.test.jsx" />
-        <option value="$PROJECT_DIR$/app/app.jsx" />
         <option value="$PROJECT_DIR$/app/api/TodoAPI.jsx" />
         <option value="$PROJECT_DIR$/app/tests/api/TodoAPI.test.jsx" />
-        <option value="$PROJECT_DIR$/app/actions/actions.jsx" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/test.env" />
         <option value="$PROJECT_DIR$/config/development.env" />
-        <option value="$PROJECT_DIR$/app/firebase/index.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/styles/components/_page-actions.scss" />
+        <option value="$PROJECT_DIR$/app/styles/app.scss" />
+        <option value="$PROJECT_DIR$/app/firebase/index.jsx" />
+        <option value="$PROJECT_DIR$/app/actions/actions.jsx" />
+        <option value="$PROJECT_DIR$/app/components/Login.jsx" />
+        <option value="$PROJECT_DIR$/app/styles/components/_callout-auth.scss" />
+        <option value="$PROJECT_DIR$/app/app.jsx" />
+        <option value="$PROJECT_DIR$/app/tests/components/TodoApp.test.jsx" />
+        <option value="$PROJECT_DIR$/app/components/TodoApp.jsx" />
       </list>
     </option>
   </component>
@@ -297,16 +309,106 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactTodo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactTodo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactTodo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactTodo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactTodo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactTodo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactTodo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactTodo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactTodo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReactTodo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/startbootstrap-sb-admin-2-gh-pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ReactWeather" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="test&#9;ACTION&#9;null&#10;web&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/webpack.config.js&#10;te&#9;ACTION&#9;null&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;WEB&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/webpack.config.js&#10;index&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/firebase/index.jsx&#10;dev&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/config/development.env&#10;test.e&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/config/test.env&#10;new&#9;ACTION&#9;NewGroup&#10;pro&#9;ACTION&#9;ActivateProjectToolWindow&#10;pack&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/package.json&#10;firebase/index&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/firebase/index.jsx&#10;actions.jsx&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/actions/actions.jsx&#10;todoapi.&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/api/TodoAPI.test.jsx&#10;todoapi&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/api/TodoAPI.jsx&#10;app&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;todo.test&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/Todo.test.jsx&#10;ac&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/actions/actions.test.jsx&#10;todo.jsx&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/Todo.jsx&#10;redu&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/reducers/reducers.jsx&#10;t&#9;ACTION&#9;null&#10;actte&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/actions/actions.test.jsx&#10;addtodo.te&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/AddTodo.test.jsx&#10;reducers.test&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/reducers/reducers.test.jsx&#10;npm&#9;ACTION&#9;ActivatenpmToolWindow&#10;Add&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/AddTodo.jsx&#10;app.&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;act&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/actions/actions.jsx&#10;pr&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/playground/spread-example.jsx&#10;confi&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/store/configureStore.jsx&#10;app.js&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;action&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/actions/actions.jsx&#10;actions&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/actions/actions.test.jsx&#10;todoApp&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoApp.jsx&#10;todoList&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoList.jsx&#10;todoap&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoApp.jsx&#10;todoSear&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/TodoSearch.test.jsx&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;todoS&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoSearch.jsx&#10;addT&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/AddTodo.jsx&#10;add&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/AddTodo.test.jsx&#10;reducers.js&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/reducers/reducers.jsx&#10;todoapp.jsx&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoApp.jsx&#10;to&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/TodoList.test.jsx&#10;todoli&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/TodoList.test.jsx&#10;todoLi&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoList.jsx&#10;todoapp.te&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/TodoApp.test.jsx&#10;todo&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/TodoList.test.jsx&#10;todolist&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoList.jsx&#10;todoa&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/TodoApp.test.jsx" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoApp.jsx&#10;todoapp&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/TodoApp.test.jsx&#10;todoa&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/api/TodoAPI.test.jsx&#10;app.j&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;todo&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoApp.jsx&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;app.jsx&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;app&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/app.scss&#10;Login&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/Login.jsx&#10;action&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/actions/actions.jsx&#10;va&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/base/_variables.scss&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;var&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/base/_variables.scss&#10;vari&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/base/_variables.scss&#10;ca&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/components/_callout-auth.scss&#10;app.sc&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/app.scss&#10;todoA&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoApp.jsx&#10;log&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/Login.jsx&#10;new&#9;ACTION&#9;NewGroup&#10;test&#9;ACTION&#9;null&#10;web&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/webpack.config.js&#10;te&#9;ACTION&#9;null&#10;WEB&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/webpack.config.js&#10;index&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/firebase/index.jsx&#10;dev&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/config/development.env&#10;test.e&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/config/test.env&#10;pro&#9;ACTION&#9;ActivateProjectToolWindow&#10;pack&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/package.json&#10;firebase/index&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/firebase/index.jsx&#10;actions.jsx&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/actions/actions.jsx&#10;todoapi.&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/api/TodoAPI.test.jsx&#10;todoapi&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/api/TodoAPI.jsx&#10;todo.test&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/Todo.test.jsx&#10;ac&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/actions/actions.test.jsx&#10;todo.jsx&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/Todo.jsx&#10;redu&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/reducers/reducers.jsx&#10;t&#9;ACTION&#9;null&#10;actte&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/actions/actions.test.jsx&#10;addtodo.te&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/AddTodo.test.jsx&#10;reducers.test&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/reducers/reducers.test.jsx&#10;npm&#9;ACTION&#9;ActivatenpmToolWindow&#10;Add&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/AddTodo.jsx&#10;app.&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;act&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/actions/actions.jsx&#10;pr&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/playground/spread-example.jsx&#10;confi&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/store/configureStore.jsx&#10;app.js&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;actions&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/actions/actions.test.jsx&#10;todoApp&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoApp.jsx&#10;todoList&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoList.jsx" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="C:\Users\Gebruiker\Documents\ReactJs\ReactTodo\node_modules\mocha" />
@@ -397,12 +499,12 @@
       <workItem from="1496128354339" duration="283000" />
       <workItem from="1496158856161" duration="14594000" />
       <workItem from="1496211175024" duration="146000" />
-      <workItem from="1496248643366" duration="16701000" />
+      <workItem from="1496248643366" duration="20217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57519000" />
+    <option name="totallyTimeSpent" value="61035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,7 +517,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16657853" sideWeight="0.4825462" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -423,9 +525,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16657853" sideWeight="0.5174538" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46775955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46775955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2852459" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2852459" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17451084" sideWeight="0.50651467" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -473,29 +575,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/components/TodoList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/components/_container.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/Todo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/_todo.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -525,7 +604,7 @@
         <state relative-caret-position="1475">
           <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
           <folding>
-            <element signature="e#96#127#0" expanded="false" />
+            <element signature="e#65#96#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -620,13 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/components/TodoApp.test.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/components/TodoList.test.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -656,16 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/TodoApp.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#96#127#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/components/_container.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -674,26 +736,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/base/_foundation-settings.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/base/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -784,34 +830,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/api/TodoAPI.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests/api/TodoAPI.test.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -832,28 +854,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/actions/actions.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/development.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/firebase/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -871,6 +875,108 @@
         <state relative-caret-position="100">
           <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_page-actions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/firebase/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/actions/actions.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="107" column="37" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/base/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/components/_callout-auth.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/api/TodoAPI.test.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests/components/TodoApp.test.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/TodoApp.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

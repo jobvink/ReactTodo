@@ -16,13 +16,14 @@ export var toggleShowCompleted = () => {
 
 export var startAddTodo = (text) => {
 	return (dispatch, getState) => {
+		var uid = getState().auth.uid;
 		var todo = {
 			text,
 			completed: false,
 			createdAt: moment().unix(),
 			completedAt: null
 		};
-		var todoRef = firebaseRef.child('todos').push(todo);
+		var todoRef = firebaseRef.child(`users/${uid}/todos`).push(todo);
 
 		return todoRef.then(() => {
 			dispatch(addTodo({
@@ -49,7 +50,8 @@ export var addTodos = (todos) => {
 
 export var startAddTodos = () => {
 	return (dispatch, getState) => {
-		var todoRef = firebaseRef.child('todos');
+		var uid = getState().auth.uid;
+		var todoRef = firebaseRef.child(`users/${uid}/todos`);
 		var reactTodo = [];
 		return todoRef.once('value').then((snapshot) => {
 			var todos = snapshot.val();
@@ -81,7 +83,8 @@ export var updateTodo = (id, updates) => {
 
 export var startToggleTodo = (id, completed) => {
 	return (dispatch, getState) => {
-		var todoRef = firebaseRef.child(`todos/${id}`);
+		var uid = getState().auth.uid;
+		var todoRef = firebaseRef.child(`users/${uid}/todos/${id}`);
 		var updates = {
 			completed,
 			completedAt: completed ? moment().unix() : null
@@ -108,4 +111,17 @@ export var startLogout = () => {
 			console.log('Uigeloggd');
 		})
 	};
+};
+
+export var login = (uid) => {
+	return {
+		type: 'LOGIN',
+		uid
+	}
+};
+
+export var logout = () => {
+	return {
+		type: 'LOGOUT'
+	}
 };

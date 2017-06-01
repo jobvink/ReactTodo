@@ -95,7 +95,32 @@ describe('Reducers', () => {
 
 			expect(res.length).toEqual(1);
 			expect(res[0]).toEqual(todos[0]);
-		})
+		});
 	});
+
+	describe('authReducer', () => {
+		it ('should add uid when login', () => {
+			var uid = 'some_uid';
+			var action = {
+				type: 'LOGIN',
+				uid
+			};
+			var res = reducers.authReducer(df({}), df(action));
+
+			expect(res.uid).toEqual(action.uid);
+		});
+
+		it('should remove uid when logout', () => {
+			var uid = 'some_uid';
+			var action = {
+				type: 'LOGOUT',
+			};
+			var res = reducers.authReducer(df({auth: {udi: 'some_uid'}}), df(action));
+
+			expect(res).toEqual({});
+		})
+	})
 });
+
+
 

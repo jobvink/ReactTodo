@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1155f536-9f69-4086-9bb1-59fa1062d6cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/Login.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/components/_callout-auth.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/components/_page-actions.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/router/index.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/actions/actions.jsx" afterPath="$PROJECT_DIR$/app/actions/actions.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.jsx" afterPath="$PROJECT_DIR$/app/app.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/TodoApp.jsx" afterPath="$PROJECT_DIR$/app/components/TodoApp.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/firebase/index.jsx" afterPath="$PROJECT_DIR$/app/firebase/index.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app.scss" afterPath="$PROJECT_DIR$/app/styles/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests/components/TodoApp.test.jsx" afterPath="$PROJECT_DIR$/app/tests/components/TodoApp.test.jsx" />
     </list>
     <ignored path="ReactTodo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +30,7 @@
       <file leaf-file-name="actions.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/actions/actions.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
+            <state relative-caret-position="2650">
               <caret line="107" column="37" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
@@ -46,12 +39,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/app.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="446">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding>
+                <element signature="e#239#276#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/router/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,7 +86,7 @@
       <file leaf-file-name="Login.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/Login.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="150">
               <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -88,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TodoApp.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TodoApp.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/TodoApp.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="375">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -125,16 +132,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/firebase/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -184,9 +181,10 @@
         <option value="$PROJECT_DIR$/app/actions/actions.jsx" />
         <option value="$PROJECT_DIR$/app/components/Login.jsx" />
         <option value="$PROJECT_DIR$/app/styles/components/_callout-auth.scss" />
-        <option value="$PROJECT_DIR$/app/app.jsx" />
         <option value="$PROJECT_DIR$/app/tests/components/TodoApp.test.jsx" />
         <option value="$PROJECT_DIR$/app/components/TodoApp.jsx" />
+        <option value="$PROJECT_DIR$/app/router/index.jsx" />
+        <option value="$PROJECT_DIR$/app/app.jsx" />
       </list>
     </option>
   </component>
@@ -276,7 +274,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -337,78 +334,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ReactTodo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ReactTodo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ReactTodo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ReactTodo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firebase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ReactTodo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ReactTodo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="router" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ReactWeather" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoApp.jsx&#10;todoapp&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/TodoApp.test.jsx&#10;todoa&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/api/TodoAPI.test.jsx&#10;app.j&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;todo&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoApp.jsx&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;app.jsx&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;app&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/app.scss&#10;Login&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/Login.jsx&#10;action&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/actions/actions.jsx&#10;va&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/base/_variables.scss&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;var&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/base/_variables.scss&#10;vari&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/base/_variables.scss&#10;ca&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/components/_callout-auth.scss&#10;app.sc&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/app.scss&#10;todoA&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoApp.jsx&#10;log&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/Login.jsx&#10;new&#9;ACTION&#9;NewGroup&#10;test&#9;ACTION&#9;null&#10;web&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/webpack.config.js&#10;te&#9;ACTION&#9;null&#10;WEB&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/webpack.config.js&#10;index&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/firebase/index.jsx&#10;dev&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/config/development.env&#10;test.e&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/config/test.env&#10;pro&#9;ACTION&#9;ActivateProjectToolWindow&#10;pack&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/package.json&#10;firebase/index&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/firebase/index.jsx&#10;actions.jsx&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/actions/actions.jsx&#10;todoapi.&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/api/TodoAPI.test.jsx&#10;todoapi&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/api/TodoAPI.jsx&#10;todo.test&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/Todo.test.jsx&#10;ac&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/actions/actions.test.jsx&#10;todo.jsx&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/Todo.jsx&#10;redu&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/reducers/reducers.jsx&#10;t&#9;ACTION&#9;null&#10;actte&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/actions/actions.test.jsx&#10;addtodo.te&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/AddTodo.test.jsx&#10;reducers.test&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/reducers/reducers.test.jsx&#10;npm&#9;ACTION&#9;ActivatenpmToolWindow&#10;Add&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/AddTodo.jsx&#10;app.&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;act&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/actions/actions.jsx&#10;pr&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/playground/spread-example.jsx&#10;confi&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/store/configureStore.jsx&#10;app.js&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;actions&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/actions/actions.test.jsx&#10;todoApp&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoApp.jsx&#10;todoList&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoList.jsx" />
+    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;app.j&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;todoapp&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/TodoApp.test.jsx&#10;todoa&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/api/TodoAPI.test.jsx&#10;todo&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoApp.jsx&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;app.jsx&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;Login&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/Login.jsx&#10;action&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/actions/actions.jsx&#10;va&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/base/_variables.scss&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;var&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/base/_variables.scss&#10;vari&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/base/_variables.scss&#10;ca&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/components/_callout-auth.scss&#10;app.sc&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/styles/app.scss&#10;todoA&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoApp.jsx&#10;log&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/Login.jsx&#10;new&#9;ACTION&#9;NewGroup&#10;test&#9;ACTION&#9;null&#10;web&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/webpack.config.js&#10;te&#9;ACTION&#9;null&#10;WEB&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/webpack.config.js&#10;index&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/firebase/index.jsx&#10;dev&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/config/development.env&#10;test.e&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/config/test.env&#10;pro&#9;ACTION&#9;ActivateProjectToolWindow&#10;pack&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/package.json&#10;firebase/index&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/firebase/index.jsx&#10;actions.jsx&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/actions/actions.jsx&#10;todoapi.&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/api/TodoAPI.test.jsx&#10;todoapi&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/api/TodoAPI.jsx&#10;todo.test&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/Todo.test.jsx&#10;ac&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/actions/actions.test.jsx&#10;todo.jsx&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/Todo.jsx&#10;redu&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/reducers/reducers.jsx&#10;t&#9;ACTION&#9;null&#10;actte&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/actions/actions.test.jsx&#10;addtodo.te&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/components/AddTodo.test.jsx&#10;reducers.test&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/reducers/reducers.test.jsx&#10;npm&#9;ACTION&#9;ActivatenpmToolWindow&#10;Add&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/AddTodo.jsx&#10;app.&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;act&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/actions/actions.jsx&#10;pr&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/playground/spread-example.jsx&#10;confi&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/store/configureStore.jsx&#10;app.js&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/app.jsx&#10;actions&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/tests/actions/actions.test.jsx&#10;todoApp&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoApp.jsx&#10;todoList&#9;FILE&#9;file://C:/Users/Gebruiker/Documents/ReactJs/ReactTodo/app/components/TodoList.jsx" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="C:\Users\Gebruiker\Documents\ReactJs\ReactTodo\node_modules\mocha" />
@@ -499,12 +439,14 @@
       <workItem from="1496128354339" duration="283000" />
       <workItem from="1496158856161" duration="14594000" />
       <workItem from="1496211175024" duration="146000" />
-      <workItem from="1496248643366" duration="20217000" />
+      <workItem from="1496248643366" duration="20344000" />
+      <workItem from="1496304618667" duration="105000" />
+      <workItem from="1496331492056" duration="1946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61035000" />
+    <option name="totallyTimeSpent" value="63213000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -522,7 +464,6 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16657853" sideWeight="0.4825462" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16657853" sideWeight="0.5174538" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46775955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -536,6 +477,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -575,14 +517,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/styles/components/_todo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/base/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -595,7 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,7 +537,7 @@
         <state relative-caret-position="1475">
           <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
           <folding>
-            <element signature="e#65#96#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -642,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="16" column="28" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,9 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="e#179#214#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,9 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-231">
           <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -834,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-804">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,7 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,7 +809,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/actions/actions.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
+        <state relative-caret-position="2650">
           <caret line="107" column="37" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
@@ -922,7 +827,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/Login.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="150">
           <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -946,14 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/api/TodoAPI.test.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -972,10 +869,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/TodoApp.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="375">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="e#239#276#0" expanded="true" />
           </folding>
         </state>
       </provider>
